@@ -17,7 +17,7 @@ Fonte: https://localstack.cloud/
 # Emulando serviços
 Nesse projeto o LocalStack está configurado para emular os serviços S3 e SQS que serão criados através do Terraform.
 
-## Requer 
+## Requer :
 
     AWS CLI : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
     DOCKER  : https://docs.docker.com/get-docker/
