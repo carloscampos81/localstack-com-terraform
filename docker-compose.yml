@@ -3,7 +3,7 @@ version: '3.0'
 services:
 
   localstack:
-    image: carteiras-administradas/carteiras-localstack-iac:latest
+    image: localstack-com-terraform/localstack-com-terraform:latest
     build:
       context: .
     container_name: localstack

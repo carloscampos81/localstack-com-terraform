@@ -10,10 +10,10 @@ variable "aws_region" {
 variable "s3_bucket_names" {
   type = list(any)
   default = [
-    { name = "carteira-origem", bucket_cleanup = false },
-    { name = "carteira-prediagnostico", bucket_cleanup = false },
-    { name = "carteira-retorno", bucket_cleanup = false },
-    { name = "carteira-origem-stg", bucket_cleanup = true },
+    { name = "mybucket-1", bucket_cleanup = false },
+    { name = "mybucket-2", bucket_cleanup = false },
+    { name = "mybucket-3", bucket_cleanup = false },
+    { name = "mybucket-4", bucket_cleanup = true },
   ]
   description = "Nome dos buckets S3."
 }
@@ -28,9 +28,9 @@ variable "bucket_cleanup" {
 variable "sqs_queue_names" {
   type = list(any)
   default = [
-    { name = "carteira-sqs-fluxo-confirmadas", visibility_timeout = 3600 },
-    { name = "carteira-sqs-fluxo-enviadas", visibility_timeout = 3600 },
-    { name = "carteira-sqs-fluxo-retorno", visibility_timeout = 3600 }
+    { name = "my-queue-1", visibility_timeout = 3600 },
+    { name = "my-queue-2", visibility_timeout = 3600 },
+    { name = "my-queue-3", visibility_timeout = 3600 }
   ]
   description = "Nome das filas SQS."
 }
