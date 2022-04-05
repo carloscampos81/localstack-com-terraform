@@ -1,0 +1,16 @@
+#Localstack
+**/data/*
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Python
+**/.venv/
+**/dist/
+**.python-version
+
+# Others
+**.DS_Store

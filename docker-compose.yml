@@ -1,0 +1,24 @@
+version: '3.0'
+
+services:
+
+  localstack:
+    image: carteiras-administradas/carteiras-localstack-iac:latest
+    build:
+      context: .
+    container_name: localstack
+    environment: 
+      - DEBUG=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - SERVICES=s3,sqs
+      - DATA_DIR=/tmp/localstack/data
+
+    ports:
+      - "4566-4582:4566-4582"
+      - "8080:8080"
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint-initaws.d/docker-entrypoint.sh
+      - ./data:/tmp/localstack/data
+      - ./terraform:/root/localstack/terraform
+
+  
