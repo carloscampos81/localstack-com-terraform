@@ -33,7 +33,7 @@ Obs: Requer AWS CLI - Instalação: https://docs.aws.amazon.com/cli/latest/userg
 
 Clonar o repositório:
 
-    git clone git@gitlab.com:anbima/corporativo/carteiras-administradas/carteiras-localstack-iac.git
+    git clone https://github.com/carloscampos81/localstack-com-terraform.git
 
 Executar o docker-compose:
 
