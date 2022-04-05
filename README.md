@@ -17,6 +17,12 @@ Fonte: https://localstack.cloud/
 # Emulando serviços
 Nesse projeto o LocalStack está configurado para emular os serviços S3 e SQS que serão criados através do Terraform.
 
+# Requer 
+
+    AWS CLI : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+    DOCKER  : https://docs.docker.com/get-docker/
+    DOCKER-COMPOSE : https://docs.docker.com/compose/install/
+    
 # Como utilizar 
 
 Configurar o profile LocalStack:
@@ -26,8 +32,6 @@ Configurar o profile LocalStack:
     AWS Secret Access Key [None]: test
     Default region name [None]: us-east-1
     Default output format [None]: 
-
-Obs: Requer AWS CLI - Instalação: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ## Executando o LocalStack com Terraform
 
