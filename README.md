@@ -47,7 +47,7 @@ Executar o docker-compose:
 
 Acessar o browser:
 
-Status o LocalStack: 
+Status do serviço do LocalStack: 
     http://localhost:4566/#infra 
 
 Status dos serviços AWS disponiveis: 
