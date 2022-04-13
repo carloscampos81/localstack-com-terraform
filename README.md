@@ -52,3 +52,9 @@ Status do serviço do LocalStack:
 
 Status dos serviços AWS disponiveis: 
     http://localhost:4566/health
+
+## Acessando o LocalStack Dashboard
+
+Acesse o link https://app.localstack.cloud/
+
+
