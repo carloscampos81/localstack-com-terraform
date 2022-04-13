@@ -71,6 +71,7 @@ Obs: Será enviado um e-mail de confirmação para a conta de e-mail cadastrada
 
 ## Acessando o Local Dashboard Resources
 
+
 ![image](https://user-images.githubusercontent.com/35838304/163222882-76d0199c-929c-4af2-b709-3f3da5bfe92a.png)
 
 ![image](https://user-images.githubusercontent.com/35838304/163223003-401ac270-0450-4ada-a0ae-fe27342d2aac.png)
