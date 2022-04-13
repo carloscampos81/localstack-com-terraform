@@ -65,9 +65,11 @@ Preenchas as informações:
 
 ![image](https://user-images.githubusercontent.com/35838304/163221901-6665950a-980a-4473-b1d1-c152d3bd6893.png)
 
+
 Obs: Será enviado um e-mail de confirmação para a conta de e-mail cadastrada
 
-Acessando o Local Dashboard Resources
+
+## Acessando o Local Dashboard Resources
 
 ![image](https://user-images.githubusercontent.com/35838304/163222882-76d0199c-929c-4af2-b709-3f3da5bfe92a.png)
 
