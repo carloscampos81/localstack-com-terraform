@@ -57,4 +57,28 @@ Status dos serviços AWS disponiveis:
 
 Acesse o link https://app.localstack.cloud/
 
+Clique em Sign Up:
+
+![image](https://user-images.githubusercontent.com/35838304/163221502-ab77219f-d634-4fe0-b7f6-4e6dd0b612d0.png)
+
+Preenchas as informações:
+
+![image](https://user-images.githubusercontent.com/35838304/163221901-6665950a-980a-4473-b1d1-c152d3bd6893.png)
+
+Obs: Será enviado um e-mail de confirmação para a conta de e-mail cadastrada
+
+Acessando o Local Dashboard Resources
+
+![image](https://user-images.githubusercontent.com/35838304/163222882-76d0199c-929c-4af2-b709-3f3da5bfe92a.png)
+
+![image](https://user-images.githubusercontent.com/35838304/163223003-401ac270-0450-4ada-a0ae-fe27342d2aac.png)
+
+![image](https://user-images.githubusercontent.com/35838304/163223079-a1b27795-9d59-4e57-886a-6e0e4ec6a186.png)
+
+![image](https://user-images.githubusercontent.com/35838304/163223142-c89df065-9c41-4942-96c4-ce50c9e4d59a.png)
+
+
+
+
+
 
